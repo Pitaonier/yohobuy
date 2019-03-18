@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href=" ../img/register/bitbug_favicon.ico" />
     <title class="heard">YOHO!BUY 有货-潮流服饰购物网站,中国时尚潮流购物风向标</title>
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1078583_wfbvkaztxme.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1078583_561a70smxu.css">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script src="../js/register.js"></script>
 </head>
 <body>
 <!--头部提示信息-->
+<div id="topTop"></div>
 <div class="Message">
     <div class="title clearFix">
         <div class="title-leftO">
@@ -18,19 +21,54 @@
                 </a>
                 <ul class="yoho">
                     <li>
-                        <a href="#">YOHO!</a>
+                        <ul class="yoho_words">
+                            <li class="yoho_watch">
+                                <a href="#">YOHO!</a>
+                            </li>
+                            <li class="yoho_none">
+                                <a href="#">集团官网!</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#">YOHO!BOYS</a>
+                        <ul class="yoho_words">
+                            <li class="yoho_watch">
+                                <a href="#">YOHO!BOYS</a>
+                            </li>
+                            <li class="yoho_none">
+                                <a href="#">男生潮流</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#">YOHO!GIRLS</a>
+                        <ul class="yoho_words">
+                            <li class="yoho_watch">
+                                <a href="#">YOHO!GIRLS</a>
+                            </li>
+                            <li class="yoho_none">
+                                <a href="#">女生潮流</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#">Mars</a>
+                        <ul class="yoho_words">
+                            <li class="yoho_watch">
+                                <a href="#">Mars</a>
+                            </li>
+                            <li class="yoho_none">
+                                <a href="#">新鲜好去处</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#">YO'HOOD</a>
+                        <ul class="yoho_words">
+                            <li class="yoho_watch">
+                                <a href="#">YO'HOOD</a>
+                            </li>
+                            <li class="yoho_none">
+                                <a href="#">潮流嘉年华</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -42,70 +80,59 @@
             </a>
         </div>
         <div class="titleRight">
-            <div class="ll"><p>Hi~</p>
-                <a href="#" id="login">
-                    [
-                    <span>请登录</span>
-                    ]
-                </a>
-
-
-                <a href="#" id="sign">
-                    [
-                    <span>免费注册</span>
-                    ]
-                </a>
-            </div>
-            <a href="#" id="sign1">
-                <span>MY有货</span><i class="iconfont icon-dianpu_xiala"></i>
-            </a>
-            <a href="#" id="sign2">
-                <i class="iconfont icon-dingdan"></i><span>我的订单</span>
-            </a>
-            <a href="#" id="sign3">
-                <i class="iconfont icon-shoucang"></i><span>我的收藏</span>
-            </a>
-            <a href="#" id="sign4">
-                <i class="iconfont icon-xiaoxi"></i><span>消息</span>
-            </a>
-            <div class="text">
-                <a href="#" id="sign5">
-                    <i class="iconfont icon-erji"></i><span>客户服务</span>
-                </a>
-                <ul class="text2">
-                    <li class="text2_1">在线客服</li>
-                    <li>帮助中心</li>
+            <div class="titleRight_center">
+                <ul class="titleRight_words">
+                    <li>Hi~</li>
+                    <li>[<a href="#">请登录</a>]</li>
+                    <li>[<a href="#">免费注册</a>]</li>
+                    <span></span>
                 </ul>
-            </div>
-            <div class="text">
-                <a href="#" id="sign6">
-                    <i class="iconfont icon-weixin"></i><span>关注有礼</span>
-                </a>
-                <ul class="text2">
-                    <li class="text2_2">
-                        <img src="../img/boys/qr-wenle.png"/>
-                        <p>微信扫一扫</p>
-                        <span>关注公众号，送球鞋</span>
+                <ul class="titleRight_words my">
+                        <li><a href="#">MY有货<i class="iconfont icon-dianpu_xiala"></i></a></li>
+                        <span></span>
+                    </ul>
+                <ul class="titleRight_words">
+                    <li><a href="#"><i class="iconfont icon-dingdan"></i>我的订单</a></li>
+                    <span></span>
+                </ul>
+                <ul class="titleRight_words">
+                    <li><a href="#"><i class="iconfont icon-shoucang"></i>我的收藏</a></li>
+                    <span></span>
+                </ul>
+                <ul class="titleRight_words">
+                    <li><a href="#"><i class="iconfont icon-xiaoxi"></i>消息</a></li>
+                    <span></span>
+                </ul>
+                <ul class="titleRight_words  my">
+                    <li><a href="#"><i class="iconfont icon-erji"></i>客户服务</a>
+                        <ul class="none">
+                            <li><a href="#">在线客服</a></li>
+                            <li><a href="#">帮助中心</a></li>
+                        </ul>
                     </li>
+                    <span></span>
+                </ul>
+                <ul class="titleRight_words icon-one  my">
+                    <li><a href="#"><i class="iconfont icon-weixin"></i>关注有礼</a></li>
+                    <span></span>
+                        <ul class="node1">
+                            <li><a href="#"><img src="../img/boys/qr-wenle.png"/></a></li>
+                            <li><a href="#">微信扫一扫</a></li>
+                            <li><a href="#">关注公众号，送球鞋</a></li>
+                        </ul>
+                </ul>
+                <ul class="titleRight_words icon-two my">
+                    <li><a href="#"><i class="iconfont icon-shouji"></i>手机版</a></li>
+                    <ul class="node1">
+                        <li><a href="#"><img src="../img/boys/qr-wenle.png"/></a></li>
+                        <li><a href="#">下载手机客户端</a></li>
+                        <li class="red"><a href="#">更多客户端</a></li>
+                    </ul>
                 </ul>
             </div>
-            <div class="text">
-                <a href="#" id="sign7">
-                    <i class="iconfont icon-shouji"></i><span>手机版</span>
-                </a>
-                <ul class="text2">
-                    <li class="text2_3">
-                        <img src="../img/boys/cover-qr-large.png"/>
-                        <p>下载手机客户端</p>
-                        <span>更多客户端</span>
-                    </li>
-                </ul>
             </div>
-
-
         </div>
     </div>
-</div>
 
 <!--导航-->
 <div class="Gps">
@@ -138,7 +165,7 @@
         </div>
         <div class="search">
             <div class="sea">
-                <input type="text" id="shu" value="万款潮品 已降价！ 最后一天">
+                <input type="text" class="shu" id="shu" placeholder="万款潮品 已降价！ 最后一天"/>
                 <a href="#">
                 <div class="Btn">
                         <i class="iconfont icon-search"></i>
@@ -367,63 +394,88 @@
         </li>
     </ul>
 </div>
-<!--轮播图-->
+<!--轮播图 start-->
 <div class="Center">
     <div class="Banner">
-            <ul class="Banner_top">
-                <li>
-                    <a href="#"><img src="../img/boys/banner1.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/banner2.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/banner3.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/banner4.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/banner5.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/banner6.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/banner7.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/banner8.jpg"/></a>
-                </li>
-            </ul>
-            <ul class="Banner_bottom">
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner1.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner2.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner3.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner4.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner5.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner6.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner7.jpg"/></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../img/boys/smallbanner8.jpg"/></a>
-                </li>
-            </ul>
+        <div class="addBtn" id="addBtn">
+            <i class="iconfont icon-zuojiantou"></i>
+        </div>
+        <div class="addBtn addReduce" id="addReduce">
+            <i class="iconfont icon-youjiantou"></i>
+        </div>
+        <ul class="Banner_top" id="Banner_top">
+            <li>
+                <a href="#"><img src="../img/boys/banner1.jpg"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/banner2.jpg"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/banner3.jpg"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/banner4.jpg"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/banner5.jpg"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/banner6.jpg"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/banner7.jpg"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/banner8.jpg"/></a>
+            </li>
+        </ul>
+        <ul class="Banner_bottom" id="Banner_bottom">
+            <li>
+                <a href="#">
+                    <img src="../img/boys/smallbanner1.jpg"/>
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/smallbanner2.jpg"/></a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/smallbanner3.jpg"/></a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#"><img src="../img/boys/smallbanner4.jpg"/></a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../img/boys/smallbanner5.jpg"/>
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../img/boys/smallbanner6.jpg"/>
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">
+                   <img src="../img/boys/smallbanner7.jpg"/>
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../img/boys/smallbanner8.jpg"/>
+                </a>
+                <span></span>
+            </li>
+        </ul>
     </div>
 </div>
+<!--轮播图 end-->
 <!--单品 复用-->
 <div class="centerShop">
     <div class="centerShop_center">
@@ -464,12 +516,18 @@
         <div class="centerShop_center_bottom">
             <div class="banner">
                 <ul class="photo banner_top">
-                    <li><a href="#"><img src="../img/boys/twobanner1.jpg"/></a></li>
-                    <li><a href="#"><img src="../img/boys/twobanner2.jpg"/></a></li>
-                    <li><a href="#"><img src="../img/boys/twobanner3.jpg"/></a></li>
-                    <li><a href="#"><img src="../img/boys/twobanner4.jpg"/></a></li>
-                    <li><a href="#"><img src="../img/boys/twobanner5.jpg"/></a></li>
-                    <li><a href="#"><img src="../img/boys/twobanner6.jpg"/></a></li>
+                    <li class="top" id="banner_go">
+                        <ul id="banner_top_one " class="top">
+                            <li><a href="#"><img src="../img/boys/twobanner1.jpg"/></a></li>
+                            <li><a href="#"><img src="../img/boys/twobanner2.jpg"/></a></li>
+                            <li><a href="#"><img src="../img/boys/twobanner3.jpg"/></a></li>
+                        </ul>
+                        <ul id="banner_top_two" class="top">
+                            <li><a href="#"><img src="../img/boys/twobanner4.jpg"/></a></li>
+                            <li><a href="#"><img src="../img/boys/twobanner5.jpg"/></a></li>
+                            <li><a href="#"><img src="../img/boys/twobanner6.jpg"/></a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <ul class="photo banner_bottom">
                     <li><a href="#"><img src="../img/boys/brand1.jpg"/></a></li>
@@ -1498,8 +1556,49 @@
             </li>
         </ul>
     </div>
+<!--悬浮-->
+<div class="windowDown" id="windowDown">
+    <div class="code center">
+        <a href="#topTop "><i class="iconfont icon-shangla"></i></a>
+    </div>
+    <div class="code code1">
+        <ul class="noned">
+            <li>
+                <i class="iconfont icon-QR"></i>
+                <div class="show">
+                    <ul class="code_left nonee">
+                        <li  class="code_left_left">
+                            <img src="../img/boys/qr-wenle.png"/>
+                            <ul class="wordss">
+                                <li>微信扫一扫</li>
+                                <li>关注公众号，送球鞋</li>
+                            </ul>
+                        </li>
+                        <li  class="code_left_left">
+                            <img src="../img/boys/qr-wenle.png"/>
+                            <ul class="wordss aaa">
+                                <li>下载手机客户端</li>
+                                <li><a href="#">更多客户端下载</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--悬浮二维码-->
+<div class="vanish" id="vanish">
+    <div class="close" id="close">
+        <b><i class="iconfont icon-guanbi"></i></b>
+    </div>
+    <ul class="erWei">
+        <li><img src="../img/boys/qr-wenle.png"/></li>
+        <li>下载手机客户端</li>
+    </ul>
+</div>
 </body>
 </html>
 <script type="text/javascript" src="../js/index.js"></script>
-<script type="text/javascript">
-</script>
+<script type="text/javascript" src="../js/bannerPic.js"></script>
+<script type="text/javascript" src="../js/mover.js"></script>
